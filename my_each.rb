@@ -1,3 +1,4 @@
+collection = [1, 2, 3, 4]
 def my_each (array)
  counter = 0
  while array.length 
@@ -5,4 +6,4 @@ def my_each (array)
  counter +=1
 end
 end
-my_each(collection)
+my_each(collection){counter}
