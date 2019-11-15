@@ -5,4 +5,4 @@ def my_each (array)
  counter +=1
 end
 end
-my_each
+my_each(collection)
